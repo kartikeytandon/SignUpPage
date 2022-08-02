@@ -1,0 +1,99 @@
+body {
+    background-color: rgb(240, 240, 254);
+    /* background-image: url("https://static.vecteezy.com/system/resources/previews/006/584/649/original/illustration-graphic-cartoon-character-of-home-study-free-vector.jpg");
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1; */
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+    padding-left: 5px;
+}
+
+.form {
+    border: 2px solid whitesmoke;
+    width: 420px;
+    height: 560px;
+    background-color: white;
+    box-shadow: -20px 20px 18px rgb(216, 199, 216);
+    border-radius: 80px 10px 10px 10px;
+    -webkit-border-radius: 80px 10px 10px 10px;
+    -moz-border-radius: 80px 10px 10px 10px;
+    -ms-border-radius: 80px 10px 10px 10px;
+    -o-border-radius: 80px 10px 10px 10px;
+}
+
+#lame {
+    border-top: hidden;
+    border-left: hidden;
+    border-right: hidden;
+    border-bottom: 1px solid;
+    width: 362px;
+}
+
+#lame:focus {
+    outline: none;
+}
+
+.sign {
+    margin: 10px;
+    padding: 12px;
+}
+
+#men {
+    color: #004d87;
+    font-weight: 900;
+}
+
+#h1 {
+    font-weight: 200;
+}
+
+input {
+    margin: 5px;
+    padding: 10px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+}
+
+#butt {
+    border: 2px;
+    background-color: rgb(216, 199, 216);
+    margin: 5px;
+    padding: 10px;
+}
+
+#butt:hover {
+    background-color: rgb(177, 123, 177);
+    cursor: pointer;
+}
+
+#r1 {
+    width: 35px;
+    margin-right: 5px;
+}
+
+label {
+    margin-left: 10px;
+}
+
+#tc {
+    text-decoration: none;
+}
+
+#tc:visited {
+    color: rgb(247, 125, 247);
+}
+
+
+/* #im {
+    height: 500px;
+    width: 500px;
+} */
